@@ -1,4 +1,5 @@
 {
   "resource": true,
-  "name": "airbyte"
+  "name": "airbyte",
+  "server": "github://api.github.com/howly-global"
 }

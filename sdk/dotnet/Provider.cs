@@ -57,6 +57,7 @@ namespace Pulumi.Airbyte
             var defaultOptions = new CustomResourceOptions
             {
                 Version = Utilities.Version,
+                PluginDownloadURL = "github://api.github.com/howly-global",
                 AdditionalSecretOutputs =
                 {
                     "bearerAuth",
