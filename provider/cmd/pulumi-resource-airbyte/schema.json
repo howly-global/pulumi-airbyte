@@ -10,6 +10,7 @@
     "license": "Apache-2.0",
     "attribution": "This Pulumi package is based on the [`airbyte` Terraform Provider](https://github.com/howly-global/terraform-provider-airbyte).",
     "repository": "https://github.com/howly-global/pulumi-airbyte",
+    "pluginDownloadURL": "github://api.github.com/howly-global",
     "publisher": "howly-global",
     "meta": {
         "moduleFormat": "(.*)(?:/[^/]*)"
