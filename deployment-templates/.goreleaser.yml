@@ -5,7 +5,7 @@ before:
   hooks:
     - make tfgen
 builds:
-  - binary: pulumi-resource-xyz
+  - binary: pulumi-resource-airbyte
     dir: provider
     env:
       - CGO_ENABLED=0
@@ -18,8 +18,8 @@ builds:
       - linux
     ldflags:
       # The line below MUST align with the module in current provider/go.mod
-      - -X github.com/pulumi/pulumi-xyz/provider/pkg/version.Version={{.Tag }}
-    main: ./cmd/pulumi-resource-xyz/
+      - -X github.com/howly-global/pulumi-airbyte/provider/pkg/version.Version={{.Tag }}
+    main: ./cmd/pulumi-resource-airbyte/
 changelog:
   skip: true
 release:

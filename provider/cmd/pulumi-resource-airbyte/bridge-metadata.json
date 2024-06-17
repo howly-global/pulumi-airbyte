@@ -1,0 +1,2710 @@
+{
+    "auto-aliasing": {
+        "resources": {
+            "airbyte_connection": {
+                "current": "airbyte:index/connection:Connection",
+                "fields": {
+                    "configurations": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "cursor_field": {
+                                            "maxItemsOne": false
+                                        },
+                                        "primary_key": {
+                                            "maxItemsOne": false,
+                                            "elem": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_astra": {
+                "current": "airbyte:index/destinationAstra:DestinationAstra",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "processing": {
+                                "fields": {
+                                    "field_name_mappings": {
+                                        "maxItemsOne": false
+                                    },
+                                    "metadata_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_splitter": {
+                                        "fields": {
+                                            "by_separator": {
+                                                "fields": {
+                                                    "separators": {
+                                                        "maxItemsOne": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_aws_datalake": {
+                "current": "airbyte:index/destinationAwsDatalake:DestinationAwsDatalake"
+            },
+            "airbyte_destination_azure_blob_storage": {
+                "current": "airbyte:index/destinationAzureBlobStorage:DestinationAzureBlobStorage"
+            },
+            "airbyte_destination_bigquery": {
+                "current": "airbyte:index/destinationBigquery:DestinationBigquery"
+            },
+            "airbyte_destination_clickhouse": {
+                "current": "airbyte:index/destinationClickhouse:DestinationClickhouse"
+            },
+            "airbyte_destination_convex": {
+                "current": "airbyte:index/destinationConvex:DestinationConvex"
+            },
+            "airbyte_destination_custom": {
+                "current": "airbyte:index/destinationCustom:DestinationCustom"
+            },
+            "airbyte_destination_databricks": {
+                "current": "airbyte:index/destinationDatabricks:DestinationDatabricks"
+            },
+            "airbyte_destination_dev_null": {
+                "current": "airbyte:index/destinationDevNull:DestinationDevNull"
+            },
+            "airbyte_destination_duckdb": {
+                "current": "airbyte:index/destinationDuckdb:DestinationDuckdb"
+            },
+            "airbyte_destination_dynamodb": {
+                "current": "airbyte:index/destinationDynamodb:DestinationDynamodb"
+            },
+            "airbyte_destination_elasticsearch": {
+                "current": "airbyte:index/destinationElasticsearch:DestinationElasticsearch"
+            },
+            "airbyte_destination_firestore": {
+                "current": "airbyte:index/destinationFirestore:DestinationFirestore"
+            },
+            "airbyte_destination_gcs": {
+                "current": "airbyte:index/destinationGcs:DestinationGcs"
+            },
+            "airbyte_destination_google_sheets": {
+                "current": "airbyte:index/destinationGoogleSheets:DestinationGoogleSheets"
+            },
+            "airbyte_destination_langchain": {
+                "current": "airbyte:index/destinationLangchain:DestinationLangchain",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "processing": {
+                                "fields": {
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_milvus": {
+                "current": "airbyte:index/destinationMilvus:DestinationMilvus",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "processing": {
+                                "fields": {
+                                    "field_name_mappings": {
+                                        "maxItemsOne": false
+                                    },
+                                    "metadata_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_splitter": {
+                                        "fields": {
+                                            "by_separator": {
+                                                "fields": {
+                                                    "separators": {
+                                                        "maxItemsOne": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_mongodb": {
+                "current": "airbyte:index/destinationMongodb:DestinationMongodb"
+            },
+            "airbyte_destination_mssql": {
+                "current": "airbyte:index/destinationMssql:DestinationMssql"
+            },
+            "airbyte_destination_mysql": {
+                "current": "airbyte:index/destinationMysql:DestinationMysql"
+            },
+            "airbyte_destination_oracle": {
+                "current": "airbyte:index/destinationOracle:DestinationOracle"
+            },
+            "airbyte_destination_pinecone": {
+                "current": "airbyte:index/destinationPinecone:DestinationPinecone",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "processing": {
+                                "fields": {
+                                    "field_name_mappings": {
+                                        "maxItemsOne": false
+                                    },
+                                    "metadata_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_splitter": {
+                                        "fields": {
+                                            "by_separator": {
+                                                "fields": {
+                                                    "separators": {
+                                                        "maxItemsOne": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_postgres": {
+                "current": "airbyte:index/destinationPostgres:DestinationPostgres"
+            },
+            "airbyte_destination_pubsub": {
+                "current": "airbyte:index/destinationPubsub:DestinationPubsub"
+            },
+            "airbyte_destination_qdrant": {
+                "current": "airbyte:index/destinationQdrant:DestinationQdrant",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "processing": {
+                                "fields": {
+                                    "field_name_mappings": {
+                                        "maxItemsOne": false
+                                    },
+                                    "metadata_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_splitter": {
+                                        "fields": {
+                                            "by_separator": {
+                                                "fields": {
+                                                    "separators": {
+                                                        "maxItemsOne": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_redis": {
+                "current": "airbyte:index/destinationRedis:DestinationRedis"
+            },
+            "airbyte_destination_redshift": {
+                "current": "airbyte:index/destinationRedshift:DestinationRedshift"
+            },
+            "airbyte_destination_s3": {
+                "current": "airbyte:index/destinationS3:DestinationS3"
+            },
+            "airbyte_destination_s3_glue": {
+                "current": "airbyte:index/destinationS3Glue:DestinationS3Glue"
+            },
+            "airbyte_destination_sftp_json": {
+                "current": "airbyte:index/destinationSftpJson:DestinationSftpJson"
+            },
+            "airbyte_destination_snowflake": {
+                "current": "airbyte:index/destinationSnowflake:DestinationSnowflake"
+            },
+            "airbyte_destination_snowflake_cortex": {
+                "current": "airbyte:index/destinationSnowflakeCortex:DestinationSnowflakeCortex",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "processing": {
+                                "fields": {
+                                    "field_name_mappings": {
+                                        "maxItemsOne": false
+                                    },
+                                    "metadata_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_splitter": {
+                                        "fields": {
+                                            "by_separator": {
+                                                "fields": {
+                                                    "separators": {
+                                                        "maxItemsOne": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_teradata": {
+                "current": "airbyte:index/destinationTeradata:DestinationTeradata"
+            },
+            "airbyte_destination_typesense": {
+                "current": "airbyte:index/destinationTypesense:DestinationTypesense"
+            },
+            "airbyte_destination_vectara": {
+                "current": "airbyte:index/destinationVectara:DestinationVectara",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "metadata_fields": {
+                                "maxItemsOne": false
+                            },
+                            "text_fields": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_weaviate": {
+                "current": "airbyte:index/destinationWeaviate:DestinationWeaviate",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "indexing": {
+                                "fields": {
+                                    "additional_headers": {
+                                        "maxItemsOne": false
+                                    }
+                                }
+                            },
+                            "processing": {
+                                "fields": {
+                                    "field_name_mappings": {
+                                        "maxItemsOne": false
+                                    },
+                                    "metadata_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_fields": {
+                                        "maxItemsOne": false
+                                    },
+                                    "text_splitter": {
+                                        "fields": {
+                                            "by_separator": {
+                                                "fields": {
+                                                    "separators": {
+                                                        "maxItemsOne": false
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_yellowbrick": {
+                "current": "airbyte:index/destinationYellowbrick:DestinationYellowbrick"
+            },
+            "airbyte_permission": {
+                "current": "airbyte:index/permission:Permission"
+            },
+            "airbyte_source_aha": {
+                "current": "airbyte:index/sourceAha:SourceAha"
+            },
+            "airbyte_source_aircall": {
+                "current": "airbyte:index/sourceAircall:SourceAircall"
+            },
+            "airbyte_source_airtable": {
+                "current": "airbyte:index/sourceAirtable:SourceAirtable"
+            },
+            "airbyte_source_amazon_ads": {
+                "current": "airbyte:index/sourceAmazonAds:SourceAmazonAds",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "marketplace_ids": {
+                                "maxItemsOne": false
+                            },
+                            "profiles": {
+                                "maxItemsOne": false
+                            },
+                            "report_record_types": {
+                                "maxItemsOne": false
+                            },
+                            "state_filter": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_amazon_seller_partner": {
+                "current": "airbyte:index/sourceAmazonSellerPartner:SourceAmazonSellerPartner",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "report_options_list": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "options_list": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_amazon_sqs": {
+                "current": "airbyte:index/sourceAmazonSqs:SourceAmazonSqs"
+            },
+            "airbyte_source_amplitude": {
+                "current": "airbyte:index/sourceAmplitude:SourceAmplitude"
+            },
+            "airbyte_source_apify_dataset": {
+                "current": "airbyte:index/sourceApifyDataset:SourceApifyDataset"
+            },
+            "airbyte_source_appfollow": {
+                "current": "airbyte:index/sourceAppfollow:SourceAppfollow"
+            },
+            "airbyte_source_asana": {
+                "current": "airbyte:index/sourceAsana:SourceAsana",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "organization_export_ids": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_auth0": {
+                "current": "airbyte:index/sourceAuth0:SourceAuth0"
+            },
+            "airbyte_source_aws_cloudtrail": {
+                "current": "airbyte:index/sourceAwsCloudtrail:SourceAwsCloudtrail"
+            },
+            "airbyte_source_azure_blob_storage": {
+                "current": "airbyte:index/sourceAzureBlobStorage:SourceAzureBlobStorage",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_azure_table": {
+                "current": "airbyte:index/sourceAzureTable:SourceAzureTable"
+            },
+            "airbyte_source_bamboo_hr": {
+                "current": "airbyte:index/sourceBambooHr:SourceBambooHr"
+            },
+            "airbyte_source_bigquery": {
+                "current": "airbyte:index/sourceBigquery:SourceBigquery"
+            },
+            "airbyte_source_bing_ads": {
+                "current": "airbyte:index/sourceBingAds:SourceBingAds",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "account_names": {
+                                "maxItemsOne": false
+                            },
+                            "custom_reports": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "report_columns": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_braintree": {
+                "current": "airbyte:index/sourceBraintree:SourceBraintree"
+            },
+            "airbyte_source_braze": {
+                "current": "airbyte:index/sourceBraze:SourceBraze"
+            },
+            "airbyte_source_cart": {
+                "current": "airbyte:index/sourceCart:SourceCart"
+            },
+            "airbyte_source_chargebee": {
+                "current": "airbyte:index/sourceChargebee:SourceChargebee"
+            },
+            "airbyte_source_chartmogul": {
+                "current": "airbyte:index/sourceChartmogul:SourceChartmogul"
+            },
+            "airbyte_source_clickhouse": {
+                "current": "airbyte:index/sourceClickhouse:SourceClickhouse"
+            },
+            "airbyte_source_clickup_api": {
+                "current": "airbyte:index/sourceClickupApi:SourceClickupApi"
+            },
+            "airbyte_source_clockify": {
+                "current": "airbyte:index/sourceClockify:SourceClockify"
+            },
+            "airbyte_source_close_com": {
+                "current": "airbyte:index/sourceCloseCom:SourceCloseCom"
+            },
+            "airbyte_source_coda": {
+                "current": "airbyte:index/sourceCoda:SourceCoda"
+            },
+            "airbyte_source_coin_api": {
+                "current": "airbyte:index/sourceCoinApi:SourceCoinApi"
+            },
+            "airbyte_source_coinmarketcap": {
+                "current": "airbyte:index/sourceCoinmarketcap:SourceCoinmarketcap",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "symbols": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_configcat": {
+                "current": "airbyte:index/sourceConfigcat:SourceConfigcat"
+            },
+            "airbyte_source_confluence": {
+                "current": "airbyte:index/sourceConfluence:SourceConfluence"
+            },
+            "airbyte_source_convex": {
+                "current": "airbyte:index/sourceConvex:SourceConvex"
+            },
+            "airbyte_source_custom": {
+                "current": "airbyte:index/sourceCustom:SourceCustom"
+            },
+            "airbyte_source_datascope": {
+                "current": "airbyte:index/sourceDatascope:SourceDatascope"
+            },
+            "airbyte_source_delighted": {
+                "current": "airbyte:index/sourceDelighted:SourceDelighted"
+            },
+            "airbyte_source_dixa": {
+                "current": "airbyte:index/sourceDixa:SourceDixa"
+            },
+            "airbyte_source_dockerhub": {
+                "current": "airbyte:index/sourceDockerhub:SourceDockerhub"
+            },
+            "airbyte_source_dremio": {
+                "current": "airbyte:index/sourceDremio:SourceDremio"
+            },
+            "airbyte_source_dynamodb": {
+                "current": "airbyte:index/sourceDynamodb:SourceDynamodb"
+            },
+            "airbyte_source_emailoctopus": {
+                "current": "airbyte:index/sourceEmailoctopus:SourceEmailoctopus"
+            },
+            "airbyte_source_exchange_rates": {
+                "current": "airbyte:index/sourceExchangeRates:SourceExchangeRates"
+            },
+            "airbyte_source_facebook_marketing": {
+                "current": "airbyte:index/sourceFacebookMarketing:SourceFacebookMarketing",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "account_ids": {
+                                "maxItemsOne": false
+                            },
+                            "ad_statuses": {
+                                "maxItemsOne": false
+                            },
+                            "adset_statuses": {
+                                "maxItemsOne": false
+                            },
+                            "campaign_statuses": {
+                                "maxItemsOne": false
+                            },
+                            "custom_insights": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "action_breakdowns": {
+                                            "maxItemsOne": false
+                                        },
+                                        "breakdowns": {
+                                            "maxItemsOne": false
+                                        },
+                                        "fields": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_faker": {
+                "current": "airbyte:index/sourceFaker:SourceFaker"
+            },
+            "airbyte_source_fauna": {
+                "current": "airbyte:index/sourceFauna:SourceFauna"
+            },
+            "airbyte_source_file": {
+                "current": "airbyte:index/sourceFile:SourceFile"
+            },
+            "airbyte_source_firebolt": {
+                "current": "airbyte:index/sourceFirebolt:SourceFirebolt"
+            },
+            "airbyte_source_freshcaller": {
+                "current": "airbyte:index/sourceFreshcaller:SourceFreshcaller"
+            },
+            "airbyte_source_freshdesk": {
+                "current": "airbyte:index/sourceFreshdesk:SourceFreshdesk"
+            },
+            "airbyte_source_freshsales": {
+                "current": "airbyte:index/sourceFreshsales:SourceFreshsales"
+            },
+            "airbyte_source_gainsight_px": {
+                "current": "airbyte:index/sourceGainsightPx:SourceGainsightPx"
+            },
+            "airbyte_source_gcs": {
+                "current": "airbyte:index/sourceGcs:SourceGcs",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_getlago": {
+                "current": "airbyte:index/sourceGetlago:SourceGetlago"
+            },
+            "airbyte_source_github": {
+                "current": "airbyte:index/sourceGithub:SourceGithub",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "branches": {
+                                "maxItemsOne": false
+                            },
+                            "repositories": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_gitlab": {
+                "current": "airbyte:index/sourceGitlab:SourceGitlab",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "groups_list": {
+                                "maxItemsOne": false
+                            },
+                            "projects_list": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_glassfrog": {
+                "current": "airbyte:index/sourceGlassfrog:SourceGlassfrog"
+            },
+            "airbyte_source_gnews": {
+                "current": "airbyte:index/sourceGnews:SourceGnews",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "in": {
+                                "maxItemsOne": false
+                            },
+                            "nullable": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_google_ads": {
+                "current": "airbyte:index/sourceGoogleAds:SourceGoogleAds",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "custom_queries_array": {
+                                "maxItemsOne": false
+                            },
+                            "customer_status_filter": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_google_analytics_data_api": {
+                "current": "airbyte:index/sourceGoogleAnalyticsDataApi:SourceGoogleAnalyticsDataApi",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "custom_reports_array": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "cohort_spec": {
+                                            "fields": {
+                                                "enabled": {
+                                                    "fields": {
+                                                        "cohorts": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "dimension_filter": {
+                                            "fields": {
+                                                "and_group": {
+                                                    "fields": {
+                                                        "expressions": {
+                                                            "maxItemsOne": false,
+                                                            "elem": {
+                                                                "fields": {
+                                                                    "filter": {
+                                                                        "fields": {
+                                                                            "in_list_filter": {
+                                                                                "fields": {
+                                                                                    "values": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "numeric_filter": {
+                                                                                "fields": {
+                                                                                    "operation": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "string_filter": {
+                                                                                "fields": {
+                                                                                    "match_type": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "filter": {
+                                                    "fields": {
+                                                        "filter": {
+                                                            "fields": {
+                                                                "in_list_filter": {
+                                                                    "fields": {
+                                                                        "values": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "numeric_filter": {
+                                                                    "fields": {
+                                                                        "operation": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "string_filter": {
+                                                                    "fields": {
+                                                                        "match_type": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "not_expression": {
+                                                    "fields": {
+                                                        "expression": {
+                                                            "fields": {
+                                                                "filter": {
+                                                                    "fields": {
+                                                                        "in_list_filter": {
+                                                                            "fields": {
+                                                                                "values": {
+                                                                                    "maxItemsOne": false
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "numeric_filter": {
+                                                                            "fields": {
+                                                                                "operation": {
+                                                                                    "maxItemsOne": false
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "string_filter": {
+                                                                            "fields": {
+                                                                                "match_type": {
+                                                                                    "maxItemsOne": false
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "or_group": {
+                                                    "fields": {
+                                                        "expressions": {
+                                                            "maxItemsOne": false,
+                                                            "elem": {
+                                                                "fields": {
+                                                                    "filter": {
+                                                                        "fields": {
+                                                                            "in_list_filter": {
+                                                                                "fields": {
+                                                                                    "values": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "numeric_filter": {
+                                                                                "fields": {
+                                                                                    "operation": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "string_filter": {
+                                                                                "fields": {
+                                                                                    "match_type": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "dimensions": {
+                                            "maxItemsOne": false
+                                        },
+                                        "metric_filter": {
+                                            "fields": {
+                                                "and_group": {
+                                                    "fields": {
+                                                        "expressions": {
+                                                            "maxItemsOne": false,
+                                                            "elem": {
+                                                                "fields": {
+                                                                    "filter": {
+                                                                        "fields": {
+                                                                            "in_list_filter": {
+                                                                                "fields": {
+                                                                                    "values": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "numeric_filter": {
+                                                                                "fields": {
+                                                                                    "operation": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "string_filter": {
+                                                                                "fields": {
+                                                                                    "match_type": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "filter": {
+                                                    "fields": {
+                                                        "filter": {
+                                                            "fields": {
+                                                                "in_list_filter": {
+                                                                    "fields": {
+                                                                        "values": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "numeric_filter": {
+                                                                    "fields": {
+                                                                        "operation": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "string_filter": {
+                                                                    "fields": {
+                                                                        "match_type": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "not_expression": {
+                                                    "fields": {
+                                                        "expression": {
+                                                            "fields": {
+                                                                "filter": {
+                                                                    "fields": {
+                                                                        "in_list_filter": {
+                                                                            "fields": {
+                                                                                "values": {
+                                                                                    "maxItemsOne": false
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "numeric_filter": {
+                                                                            "fields": {
+                                                                                "operation": {
+                                                                                    "maxItemsOne": false
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        "string_filter": {
+                                                                            "fields": {
+                                                                                "match_type": {
+                                                                                    "maxItemsOne": false
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "or_group": {
+                                                    "fields": {
+                                                        "expressions": {
+                                                            "maxItemsOne": false,
+                                                            "elem": {
+                                                                "fields": {
+                                                                    "filter": {
+                                                                        "fields": {
+                                                                            "in_list_filter": {
+                                                                                "fields": {
+                                                                                    "values": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "numeric_filter": {
+                                                                                "fields": {
+                                                                                    "operation": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "string_filter": {
+                                                                                "fields": {
+                                                                                    "match_type": {
+                                                                                        "maxItemsOne": false
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "metrics": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            },
+                            "property_ids": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_google_analytics_v4_service_account_only": {
+                "current": "airbyte:index/sourceGoogleAnalyticsV4ServiceAccountOnly:SourceGoogleAnalyticsV4ServiceAccountOnly"
+            },
+            "airbyte_source_google_directory": {
+                "current": "airbyte:index/sourceGoogleDirectory:SourceGoogleDirectory"
+            },
+            "airbyte_source_google_drive": {
+                "current": "airbyte:index/sourceGoogleDrive:SourceGoogleDrive",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_google_pagespeed_insights": {
+                "current": "airbyte:index/sourceGooglePagespeedInsights:SourceGooglePagespeedInsights",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "categories": {
+                                "maxItemsOne": false
+                            },
+                            "strategies": {
+                                "maxItemsOne": false
+                            },
+                            "urls": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_google_search_console": {
+                "current": "airbyte:index/sourceGoogleSearchConsole:SourceGoogleSearchConsole",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "custom_reports_array": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "dimensions": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            },
+                            "site_urls": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_google_sheets": {
+                "current": "airbyte:index/sourceGoogleSheets:SourceGoogleSheets"
+            },
+            "airbyte_source_google_webfonts": {
+                "current": "airbyte:index/sourceGoogleWebfonts:SourceGoogleWebfonts"
+            },
+            "airbyte_source_greenhouse": {
+                "current": "airbyte:index/sourceGreenhouse:SourceGreenhouse"
+            },
+            "airbyte_source_gridly": {
+                "current": "airbyte:index/sourceGridly:SourceGridly"
+            },
+            "airbyte_source_harvest": {
+                "current": "airbyte:index/sourceHarvest:SourceHarvest"
+            },
+            "airbyte_source_hubplanner": {
+                "current": "airbyte:index/sourceHubplanner:SourceHubplanner"
+            },
+            "airbyte_source_hubspot": {
+                "current": "airbyte:index/sourceHubspot:SourceHubspot"
+            },
+            "airbyte_source_insightly": {
+                "current": "airbyte:index/sourceInsightly:SourceInsightly"
+            },
+            "airbyte_source_instagram": {
+                "current": "airbyte:index/sourceInstagram:SourceInstagram"
+            },
+            "airbyte_source_instatus": {
+                "current": "airbyte:index/sourceInstatus:SourceInstatus"
+            },
+            "airbyte_source_intercom": {
+                "current": "airbyte:index/sourceIntercom:SourceIntercom"
+            },
+            "airbyte_source_ip2whois": {
+                "current": "airbyte:index/sourceIp2whois:SourceIp2whois"
+            },
+            "airbyte_source_iterable": {
+                "current": "airbyte:index/sourceIterable:SourceIterable"
+            },
+            "airbyte_source_jira": {
+                "current": "airbyte:index/sourceJira:SourceJira",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "issues_stream_expand_with": {
+                                "maxItemsOne": false
+                            },
+                            "projects": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_k6_cloud": {
+                "current": "airbyte:index/sourceK6Cloud:SourceK6Cloud"
+            },
+            "airbyte_source_klarna": {
+                "current": "airbyte:index/sourceKlarna:SourceKlarna"
+            },
+            "airbyte_source_klaviyo": {
+                "current": "airbyte:index/sourceKlaviyo:SourceKlaviyo"
+            },
+            "airbyte_source_kyve": {
+                "current": "airbyte:index/sourceKyve:SourceKyve"
+            },
+            "airbyte_source_launchdarkly": {
+                "current": "airbyte:index/sourceLaunchdarkly:SourceLaunchdarkly"
+            },
+            "airbyte_source_lemlist": {
+                "current": "airbyte:index/sourceLemlist:SourceLemlist"
+            },
+            "airbyte_source_lever_hiring": {
+                "current": "airbyte:index/sourceLeverHiring:SourceLeverHiring"
+            },
+            "airbyte_source_linkedin_ads": {
+                "current": "airbyte:index/sourceLinkedinAds:SourceLinkedinAds",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "account_ids": {
+                                "maxItemsOne": false
+                            },
+                            "ad_analytics_reports": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_linkedin_pages": {
+                "current": "airbyte:index/sourceLinkedinPages:SourceLinkedinPages"
+            },
+            "airbyte_source_linnworks": {
+                "current": "airbyte:index/sourceLinnworks:SourceLinnworks"
+            },
+            "airbyte_source_lokalise": {
+                "current": "airbyte:index/sourceLokalise:SourceLokalise"
+            },
+            "airbyte_source_mailchimp": {
+                "current": "airbyte:index/sourceMailchimp:SourceMailchimp"
+            },
+            "airbyte_source_mailgun": {
+                "current": "airbyte:index/sourceMailgun:SourceMailgun"
+            },
+            "airbyte_source_mailjet_sms": {
+                "current": "airbyte:index/sourceMailjetSms:SourceMailjetSms"
+            },
+            "airbyte_source_marketo": {
+                "current": "airbyte:index/sourceMarketo:SourceMarketo"
+            },
+            "airbyte_source_metabase": {
+                "current": "airbyte:index/sourceMetabase:SourceMetabase"
+            },
+            "airbyte_source_microsoft_onedrive": {
+                "current": "airbyte:index/sourceMicrosoftOnedrive:SourceMicrosoftOnedrive",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_microsoft_sharepoint": {
+                "current": "airbyte:index/sourceMicrosoftSharepoint:SourceMicrosoftSharepoint",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_microsoft_teams": {
+                "current": "airbyte:index/sourceMicrosoftTeams:SourceMicrosoftTeams"
+            },
+            "airbyte_source_mixpanel": {
+                "current": "airbyte:index/sourceMixpanel:SourceMixpanel"
+            },
+            "airbyte_source_monday": {
+                "current": "airbyte:index/sourceMonday:SourceMonday"
+            },
+            "airbyte_source_mongodb_internal_poc": {
+                "current": "airbyte:index/sourceMongodbInternalPoc:SourceMongodbInternalPoc"
+            },
+            "airbyte_source_mongodb_v2": {
+                "current": "airbyte:index/sourceMongodbV2:SourceMongodbV2"
+            },
+            "airbyte_source_mssql": {
+                "current": "airbyte:index/sourceMssql:SourceMssql",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "schemas": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_my_hours": {
+                "current": "airbyte:index/sourceMyHours:SourceMyHours"
+            },
+            "airbyte_source_mysql": {
+                "current": "airbyte:index/sourceMysql:SourceMysql"
+            },
+            "airbyte_source_netsuite": {
+                "current": "airbyte:index/sourceNetsuite:SourceNetsuite",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "object_types": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_notion": {
+                "current": "airbyte:index/sourceNotion:SourceNotion"
+            },
+            "airbyte_source_nytimes": {
+                "current": "airbyte:index/sourceNytimes:SourceNytimes"
+            },
+            "airbyte_source_okta": {
+                "current": "airbyte:index/sourceOkta:SourceOkta"
+            },
+            "airbyte_source_omnisend": {
+                "current": "airbyte:index/sourceOmnisend:SourceOmnisend"
+            },
+            "airbyte_source_onesignal": {
+                "current": "airbyte:index/sourceOnesignal:SourceOnesignal",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "applications": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_oracle": {
+                "current": "airbyte:index/sourceOracle:SourceOracle",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "schemas": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_orb": {
+                "current": "airbyte:index/sourceOrb:SourceOrb",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "numeric_event_properties_keys": {
+                                "maxItemsOne": false
+                            },
+                            "string_event_properties_keys": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_orbit": {
+                "current": "airbyte:index/sourceOrbit:SourceOrbit"
+            },
+            "airbyte_source_outbrain_amplify": {
+                "current": "airbyte:index/sourceOutbrainAmplify:SourceOutbrainAmplify"
+            },
+            "airbyte_source_outreach": {
+                "current": "airbyte:index/sourceOutreach:SourceOutreach"
+            },
+            "airbyte_source_paypal_transaction": {
+                "current": "airbyte:index/sourcePaypalTransaction:SourcePaypalTransaction"
+            },
+            "airbyte_source_paystack": {
+                "current": "airbyte:index/sourcePaystack:SourcePaystack"
+            },
+            "airbyte_source_pendo": {
+                "current": "airbyte:index/sourcePendo:SourcePendo"
+            },
+            "airbyte_source_persistiq": {
+                "current": "airbyte:index/sourcePersistiq:SourcePersistiq"
+            },
+            "airbyte_source_pexels_api": {
+                "current": "airbyte:index/sourcePexelsApi:SourcePexelsApi"
+            },
+            "airbyte_source_pinterest": {
+                "current": "airbyte:index/sourcePinterest:SourcePinterest",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "custom_reports": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "attribution_types": {
+                                            "maxItemsOne": false
+                                        },
+                                        "columns": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            },
+                            "status": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_pipedrive": {
+                "current": "airbyte:index/sourcePipedrive:SourcePipedrive"
+            },
+            "airbyte_source_pocket": {
+                "current": "airbyte:index/sourcePocket:SourcePocket"
+            },
+            "airbyte_source_pokeapi": {
+                "current": "airbyte:index/sourcePokeapi:SourcePokeapi"
+            },
+            "airbyte_source_polygon_stock_api": {
+                "current": "airbyte:index/sourcePolygonStockApi:SourcePolygonStockApi"
+            },
+            "airbyte_source_postgres": {
+                "current": "airbyte:index/sourcePostgres:SourcePostgres",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "schemas": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_posthog": {
+                "current": "airbyte:index/sourcePosthog:SourcePosthog"
+            },
+            "airbyte_source_postmarkapp": {
+                "current": "airbyte:index/sourcePostmarkapp:SourcePostmarkapp"
+            },
+            "airbyte_source_prestashop": {
+                "current": "airbyte:index/sourcePrestashop:SourcePrestashop"
+            },
+            "airbyte_source_punk_api": {
+                "current": "airbyte:index/sourcePunkApi:SourcePunkApi"
+            },
+            "airbyte_source_pypi": {
+                "current": "airbyte:index/sourcePypi:SourcePypi"
+            },
+            "airbyte_source_qualaroo": {
+                "current": "airbyte:index/sourceQualaroo:SourceQualaroo",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "survey_ids": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_railz": {
+                "current": "airbyte:index/sourceRailz:SourceRailz"
+            },
+            "airbyte_source_recharge": {
+                "current": "airbyte:index/sourceRecharge:SourceRecharge"
+            },
+            "airbyte_source_recreation": {
+                "current": "airbyte:index/sourceRecreation:SourceRecreation"
+            },
+            "airbyte_source_recruitee": {
+                "current": "airbyte:index/sourceRecruitee:SourceRecruitee"
+            },
+            "airbyte_source_recurly": {
+                "current": "airbyte:index/sourceRecurly:SourceRecurly"
+            },
+            "airbyte_source_redshift": {
+                "current": "airbyte:index/sourceRedshift:SourceRedshift",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "schemas": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_retently": {
+                "current": "airbyte:index/sourceRetently:SourceRetently"
+            },
+            "airbyte_source_rki_covid": {
+                "current": "airbyte:index/sourceRkiCovid:SourceRkiCovid"
+            },
+            "airbyte_source_rss": {
+                "current": "airbyte:index/sourceRss:SourceRss"
+            },
+            "airbyte_source_s3": {
+                "current": "airbyte:index/sourceS3:SourceS3",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "format": {
+                                "fields": {
+                                    "parquet": {
+                                        "fields": {
+                                            "columns": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_salesforce": {
+                "current": "airbyte:index/sourceSalesforce:SourceSalesforce",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams_criteria": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_salesloft": {
+                "current": "airbyte:index/sourceSalesloft:SourceSalesloft"
+            },
+            "airbyte_source_sap_fieldglass": {
+                "current": "airbyte:index/sourceSapFieldglass:SourceSapFieldglass"
+            },
+            "airbyte_source_secoda": {
+                "current": "airbyte:index/sourceSecoda:SourceSecoda"
+            },
+            "airbyte_source_sendgrid": {
+                "current": "airbyte:index/sourceSendgrid:SourceSendgrid"
+            },
+            "airbyte_source_sendinblue": {
+                "current": "airbyte:index/sourceSendinblue:SourceSendinblue"
+            },
+            "airbyte_source_senseforce": {
+                "current": "airbyte:index/sourceSenseforce:SourceSenseforce"
+            },
+            "airbyte_source_sentry": {
+                "current": "airbyte:index/sourceSentry:SourceSentry",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "discover_fields": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_sftp": {
+                "current": "airbyte:index/sourceSftp:SourceSftp"
+            },
+            "airbyte_source_sftp_bulk": {
+                "current": "airbyte:index/sourceSftpBulk:SourceSftpBulk",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "format": {
+                                            "fields": {
+                                                "csv_format": {
+                                                    "fields": {
+                                                        "false_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "header_definition": {
+                                                            "fields": {
+                                                                "user_provided": {
+                                                                    "fields": {
+                                                                        "column_names": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "null_values": {
+                                                            "maxItemsOne": false
+                                                        },
+                                                        "true_values": {
+                                                            "maxItemsOne": false
+                                                        }
+                                                    }
+                                                },
+                                                "document_file_type_format_experimental": {
+                                                    "fields": {
+                                                        "processing": {
+                                                            "fields": {
+                                                                "via_api": {
+                                                                    "fields": {
+                                                                        "parameters": {
+                                                                            "maxItemsOne": false
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "globs": {
+                                            "maxItemsOne": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_shopify": {
+                "current": "airbyte:index/sourceShopify:SourceShopify"
+            },
+            "airbyte_source_shortio": {
+                "current": "airbyte:index/sourceShortio:SourceShortio"
+            },
+            "airbyte_source_slack": {
+                "current": "airbyte:index/sourceSlack:SourceSlack",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "channel_filter": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_smaily": {
+                "current": "airbyte:index/sourceSmaily:SourceSmaily"
+            },
+            "airbyte_source_smartengage": {
+                "current": "airbyte:index/sourceSmartengage:SourceSmartengage"
+            },
+            "airbyte_source_smartsheets": {
+                "current": "airbyte:index/sourceSmartsheets:SourceSmartsheets",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "metadata_fields": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_snapchat_marketing": {
+                "current": "airbyte:index/sourceSnapchatMarketing:SourceSnapchatMarketing"
+            },
+            "airbyte_source_snowflake": {
+                "current": "airbyte:index/sourceSnowflake:SourceSnowflake"
+            },
+            "airbyte_source_sonar_cloud": {
+                "current": "airbyte:index/sourceSonarCloud:SourceSonarCloud",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "component_keys": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_spacex_api": {
+                "current": "airbyte:index/sourceSpacexApi:SourceSpacexApi"
+            },
+            "airbyte_source_square": {
+                "current": "airbyte:index/sourceSquare:SourceSquare"
+            },
+            "airbyte_source_strava": {
+                "current": "airbyte:index/sourceStrava:SourceStrava"
+            },
+            "airbyte_source_stripe": {
+                "current": "airbyte:index/sourceStripe:SourceStripe"
+            },
+            "airbyte_source_survey_sparrow": {
+                "current": "airbyte:index/sourceSurveySparrow:SourceSurveySparrow",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "survey_id": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_surveymonkey": {
+                "current": "airbyte:index/sourceSurveymonkey:SourceSurveymonkey",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "survey_ids": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_tempo": {
+                "current": "airbyte:index/sourceTempo:SourceTempo"
+            },
+            "airbyte_source_the_guardian_api": {
+                "current": "airbyte:index/sourceTheGuardianApi:SourceTheGuardianApi"
+            },
+            "airbyte_source_tiktok_marketing": {
+                "current": "airbyte:index/sourceTiktokMarketing:SourceTiktokMarketing"
+            },
+            "airbyte_source_trello": {
+                "current": "airbyte:index/sourceTrello:SourceTrello",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "board_ids": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_trustpilot": {
+                "current": "airbyte:index/sourceTrustpilot:SourceTrustpilot",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "business_units": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_tvmaze_schedule": {
+                "current": "airbyte:index/sourceTvmazeSchedule:SourceTvmazeSchedule"
+            },
+            "airbyte_source_twilio": {
+                "current": "airbyte:index/sourceTwilio:SourceTwilio"
+            },
+            "airbyte_source_twilio_taskrouter": {
+                "current": "airbyte:index/sourceTwilioTaskrouter:SourceTwilioTaskrouter"
+            },
+            "airbyte_source_twitter": {
+                "current": "airbyte:index/sourceTwitter:SourceTwitter"
+            },
+            "airbyte_source_typeform": {
+                "current": "airbyte:index/sourceTypeform:SourceTypeform",
+                "fields": {
+                    "configuration": {
+                        "fields": {
+                            "form_ids": {
+                                "maxItemsOne": false
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_source_us_census": {
+                "current": "airbyte:index/sourceUsCensus:SourceUsCensus"
+            },
+            "airbyte_source_vantage": {
+                "current": "airbyte:index/sourceVantage:SourceVantage"
+            },
+            "airbyte_source_webflow": {
+                "current": "airbyte:index/sourceWebflow:SourceWebflow"
+            },
+            "airbyte_source_whisky_hunter": {
+                "current": "airbyte:index/sourceWhiskyHunter:SourceWhiskyHunter"
+            },
+            "airbyte_source_wikipedia_pageviews": {
+                "current": "airbyte:index/sourceWikipediaPageviews:SourceWikipediaPageviews"
+            },
+            "airbyte_source_woocommerce": {
+                "current": "airbyte:index/sourceWoocommerce:SourceWoocommerce"
+            },
+            "airbyte_source_xkcd": {
+                "current": "airbyte:index/sourceXkcd:SourceXkcd"
+            },
+            "airbyte_source_yandex_metrica": {
+                "current": "airbyte:index/sourceYandexMetrica:SourceYandexMetrica"
+            },
+            "airbyte_source_yotpo": {
+                "current": "airbyte:index/sourceYotpo:SourceYotpo"
+            },
+            "airbyte_source_youtube_analytics": {
+                "current": "airbyte:index/sourceYoutubeAnalytics:SourceYoutubeAnalytics"
+            },
+            "airbyte_source_zendesk_chat": {
+                "current": "airbyte:index/sourceZendeskChat:SourceZendeskChat"
+            },
+            "airbyte_source_zendesk_sell": {
+                "current": "airbyte:index/sourceZendeskSell:SourceZendeskSell"
+            },
+            "airbyte_source_zendesk_sunshine": {
+                "current": "airbyte:index/sourceZendeskSunshine:SourceZendeskSunshine"
+            },
+            "airbyte_source_zendesk_support": {
+                "current": "airbyte:index/sourceZendeskSupport:SourceZendeskSupport"
+            },
+            "airbyte_source_zendesk_talk": {
+                "current": "airbyte:index/sourceZendeskTalk:SourceZendeskTalk"
+            },
+            "airbyte_source_zenloop": {
+                "current": "airbyte:index/sourceZenloop:SourceZenloop"
+            },
+            "airbyte_source_zoho_crm": {
+                "current": "airbyte:index/sourceZohoCrm:SourceZohoCrm"
+            },
+            "airbyte_source_zoom": {
+                "current": "airbyte:index/sourceZoom:SourceZoom"
+            },
+            "airbyte_workspace": {
+                "current": "airbyte:index/workspace:Workspace"
+            }
+        },
+        "datasources": {
+            "airbyte_connection": {
+                "current": "airbyte:index/getConnection:getConnection",
+                "fields": {
+                    "configurations": {
+                        "fields": {
+                            "streams": {
+                                "maxItemsOne": false,
+                                "elem": {
+                                    "fields": {
+                                        "cursor_field": {
+                                            "maxItemsOne": false
+                                        },
+                                        "primary_key": {
+                                            "maxItemsOne": false,
+                                            "elem": {
+                                                "maxItemsOne": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "airbyte_destination_astra": {
+                "current": "airbyte:index/getDestinationAstra:getDestinationAstra"
+            },
+            "airbyte_destination_aws_datalake": {
+                "current": "airbyte:index/getDestinationAwsDatalake:getDestinationAwsDatalake"
+            },
+            "airbyte_destination_azure_blob_storage": {
+                "current": "airbyte:index/getDestinationAzureBlobStorage:getDestinationAzureBlobStorage"
+            },
+            "airbyte_destination_bigquery": {
+                "current": "airbyte:index/getDestinationBigquery:getDestinationBigquery"
+            },
+            "airbyte_destination_clickhouse": {
+                "current": "airbyte:index/getDestinationClickhouse:getDestinationClickhouse"
+            },
+            "airbyte_destination_convex": {
+                "current": "airbyte:index/getDestinationConvex:getDestinationConvex"
+            },
+            "airbyte_destination_custom": {
+                "current": "airbyte:index/getDestinationCustom:getDestinationCustom"
+            },
+            "airbyte_destination_databricks": {
+                "current": "airbyte:index/getDestinationDatabricks:getDestinationDatabricks"
+            },
+            "airbyte_destination_dev_null": {
+                "current": "airbyte:index/getDestinationDevNull:getDestinationDevNull"
+            },
+            "airbyte_destination_duckdb": {
+                "current": "airbyte:index/getDestinationDuckdb:getDestinationDuckdb"
+            },
+            "airbyte_destination_dynamodb": {
+                "current": "airbyte:index/getDestinationDynamodb:getDestinationDynamodb"
+            },
+            "airbyte_destination_elasticsearch": {
+                "current": "airbyte:index/getDestinationElasticsearch:getDestinationElasticsearch"
+            },
+            "airbyte_destination_firestore": {
+                "current": "airbyte:index/getDestinationFirestore:getDestinationFirestore"
+            },
+            "airbyte_destination_gcs": {
+                "current": "airbyte:index/getDestinationGcs:getDestinationGcs"
+            },
+            "airbyte_destination_google_sheets": {
+                "current": "airbyte:index/getDestinationGoogleSheets:getDestinationGoogleSheets"
+            },
+            "airbyte_destination_langchain": {
+                "current": "airbyte:index/getDestinationLangchain:getDestinationLangchain"
+            },
+            "airbyte_destination_milvus": {
+                "current": "airbyte:index/getDestinationMilvus:getDestinationMilvus"
+            },
+            "airbyte_destination_mongodb": {
+                "current": "airbyte:index/getDestinationMongodb:getDestinationMongodb"
+            },
+            "airbyte_destination_mssql": {
+                "current": "airbyte:index/getDestinationMssql:getDestinationMssql"
+            },
+            "airbyte_destination_mysql": {
+                "current": "airbyte:index/getDestinationMysql:getDestinationMysql"
+            },
+            "airbyte_destination_oracle": {
+                "current": "airbyte:index/getDestinationOracle:getDestinationOracle"
+            },
+            "airbyte_destination_pinecone": {
+                "current": "airbyte:index/getDestinationPinecone:getDestinationPinecone"
+            },
+            "airbyte_destination_postgres": {
+                "current": "airbyte:index/getDestinationPostgres:getDestinationPostgres"
+            },
+            "airbyte_destination_pubsub": {
+                "current": "airbyte:index/getDestinationPubsub:getDestinationPubsub"
+            },
+            "airbyte_destination_qdrant": {
+                "current": "airbyte:index/getDestinationQdrant:getDestinationQdrant"
+            },
+            "airbyte_destination_redis": {
+                "current": "airbyte:index/getDestinationRedis:getDestinationRedis"
+            },
+            "airbyte_destination_redshift": {
+                "current": "airbyte:index/getDestinationRedshift:getDestinationRedshift"
+            },
+            "airbyte_destination_s3": {
+                "current": "airbyte:index/getDestinationS3:getDestinationS3"
+            },
+            "airbyte_destination_s3_glue": {
+                "current": "airbyte:index/getDestinationS3Glue:getDestinationS3Glue"
+            },
+            "airbyte_destination_sftp_json": {
+                "current": "airbyte:index/getDestinationSftpJson:getDestinationSftpJson"
+            },
+            "airbyte_destination_snowflake": {
+                "current": "airbyte:index/getDestinationSnowflake:getDestinationSnowflake"
+            },
+            "airbyte_destination_snowflake_cortex": {
+                "current": "airbyte:index/getDestinationSnowflakeCortex:getDestinationSnowflakeCortex"
+            },
+            "airbyte_destination_teradata": {
+                "current": "airbyte:index/getDestinationTeradata:getDestinationTeradata"
+            },
+            "airbyte_destination_typesense": {
+                "current": "airbyte:index/getDestinationTypesense:getDestinationTypesense"
+            },
+            "airbyte_destination_vectara": {
+                "current": "airbyte:index/getDestinationVectara:getDestinationVectara"
+            },
+            "airbyte_destination_weaviate": {
+                "current": "airbyte:index/getDestinationWeaviate:getDestinationWeaviate"
+            },
+            "airbyte_destination_yellowbrick": {
+                "current": "airbyte:index/getDestinationYellowbrick:getDestinationYellowbrick"
+            },
+            "airbyte_permission": {
+                "current": "airbyte:index/getPermission:getPermission"
+            },
+            "airbyte_source_aha": {
+                "current": "airbyte:index/getSourceAha:getSourceAha"
+            },
+            "airbyte_source_aircall": {
+                "current": "airbyte:index/getSourceAircall:getSourceAircall"
+            },
+            "airbyte_source_airtable": {
+                "current": "airbyte:index/getSourceAirtable:getSourceAirtable"
+            },
+            "airbyte_source_amazon_ads": {
+                "current": "airbyte:index/getSourceAmazonAds:getSourceAmazonAds"
+            },
+            "airbyte_source_amazon_seller_partner": {
+                "current": "airbyte:index/getSourceAmazonSellerPartner:getSourceAmazonSellerPartner"
+            },
+            "airbyte_source_amazon_sqs": {
+                "current": "airbyte:index/getSourceAmazonSqs:getSourceAmazonSqs"
+            },
+            "airbyte_source_amplitude": {
+                "current": "airbyte:index/getSourceAmplitude:getSourceAmplitude"
+            },
+            "airbyte_source_apify_dataset": {
+                "current": "airbyte:index/getSourceApifyDataset:getSourceApifyDataset"
+            },
+            "airbyte_source_appfollow": {
+                "current": "airbyte:index/getSourceAppfollow:getSourceAppfollow"
+            },
+            "airbyte_source_asana": {
+                "current": "airbyte:index/getSourceAsana:getSourceAsana"
+            },
+            "airbyte_source_auth0": {
+                "current": "airbyte:index/getSourceAuth0:getSourceAuth0"
+            },
+            "airbyte_source_aws_cloudtrail": {
+                "current": "airbyte:index/getSourceAwsCloudtrail:getSourceAwsCloudtrail"
+            },
+            "airbyte_source_azure_blob_storage": {
+                "current": "airbyte:index/getSourceAzureBlobStorage:getSourceAzureBlobStorage"
+            },
+            "airbyte_source_azure_table": {
+                "current": "airbyte:index/getSourceAzureTable:getSourceAzureTable"
+            },
+            "airbyte_source_bamboo_hr": {
+                "current": "airbyte:index/getSourceBambooHr:getSourceBambooHr"
+            },
+            "airbyte_source_bigquery": {
+                "current": "airbyte:index/getSourceBigquery:getSourceBigquery"
+            },
+            "airbyte_source_bing_ads": {
+                "current": "airbyte:index/getSourceBingAds:getSourceBingAds"
+            },
+            "airbyte_source_braintree": {
+                "current": "airbyte:index/getSourceBraintree:getSourceBraintree"
+            },
+            "airbyte_source_braze": {
+                "current": "airbyte:index/getSourceBraze:getSourceBraze"
+            },
+            "airbyte_source_cart": {
+                "current": "airbyte:index/getSourceCart:getSourceCart"
+            },
+            "airbyte_source_chargebee": {
+                "current": "airbyte:index/getSourceChargebee:getSourceChargebee"
+            },
+            "airbyte_source_chartmogul": {
+                "current": "airbyte:index/getSourceChartmogul:getSourceChartmogul"
+            },
+            "airbyte_source_clickhouse": {
+                "current": "airbyte:index/getSourceClickhouse:getSourceClickhouse"
+            },
+            "airbyte_source_clickup_api": {
+                "current": "airbyte:index/getSourceClickupApi:getSourceClickupApi"
+            },
+            "airbyte_source_clockify": {
+                "current": "airbyte:index/getSourceClockify:getSourceClockify"
+            },
+            "airbyte_source_close_com": {
+                "current": "airbyte:index/getSourceCloseCom:getSourceCloseCom"
+            },
+            "airbyte_source_coda": {
+                "current": "airbyte:index/getSourceCoda:getSourceCoda"
+            },
+            "airbyte_source_coin_api": {
+                "current": "airbyte:index/getSourceCoinApi:getSourceCoinApi"
+            },
+            "airbyte_source_coinmarketcap": {
+                "current": "airbyte:index/getSourceCoinmarketcap:getSourceCoinmarketcap"
+            },
+            "airbyte_source_configcat": {
+                "current": "airbyte:index/getSourceConfigcat:getSourceConfigcat"
+            },
+            "airbyte_source_confluence": {
+                "current": "airbyte:index/getSourceConfluence:getSourceConfluence"
+            },
+            "airbyte_source_convex": {
+                "current": "airbyte:index/getSourceConvex:getSourceConvex"
+            },
+            "airbyte_source_custom": {
+                "current": "airbyte:index/getSourceCustom:getSourceCustom"
+            },
+            "airbyte_source_datascope": {
+                "current": "airbyte:index/getSourceDatascope:getSourceDatascope"
+            },
+            "airbyte_source_delighted": {
+                "current": "airbyte:index/getSourceDelighted:getSourceDelighted"
+            },
+            "airbyte_source_dixa": {
+                "current": "airbyte:index/getSourceDixa:getSourceDixa"
+            },
+            "airbyte_source_dockerhub": {
+                "current": "airbyte:index/getSourceDockerhub:getSourceDockerhub"
+            },
+            "airbyte_source_dremio": {
+                "current": "airbyte:index/getSourceDremio:getSourceDremio"
+            },
+            "airbyte_source_dynamodb": {
+                "current": "airbyte:index/getSourceDynamodb:getSourceDynamodb"
+            },
+            "airbyte_source_emailoctopus": {
+                "current": "airbyte:index/getSourceEmailoctopus:getSourceEmailoctopus"
+            },
+            "airbyte_source_exchange_rates": {
+                "current": "airbyte:index/getSourceExchangeRates:getSourceExchangeRates"
+            },
+            "airbyte_source_facebook_marketing": {
+                "current": "airbyte:index/getSourceFacebookMarketing:getSourceFacebookMarketing"
+            },
+            "airbyte_source_faker": {
+                "current": "airbyte:index/getSourceFaker:getSourceFaker"
+            },
+            "airbyte_source_fauna": {
+                "current": "airbyte:index/getSourceFauna:getSourceFauna"
+            },
+            "airbyte_source_file": {
+                "current": "airbyte:index/getSourceFile:getSourceFile"
+            },
+            "airbyte_source_firebolt": {
+                "current": "airbyte:index/getSourceFirebolt:getSourceFirebolt"
+            },
+            "airbyte_source_freshcaller": {
+                "current": "airbyte:index/getSourceFreshcaller:getSourceFreshcaller"
+            },
+            "airbyte_source_freshdesk": {
+                "current": "airbyte:index/getSourceFreshdesk:getSourceFreshdesk"
+            },
+            "airbyte_source_freshsales": {
+                "current": "airbyte:index/getSourceFreshsales:getSourceFreshsales"
+            },
+            "airbyte_source_gainsight_px": {
+                "current": "airbyte:index/getSourceGainsightPx:getSourceGainsightPx"
+            },
+            "airbyte_source_gcs": {
+                "current": "airbyte:index/getSourceGcs:getSourceGcs"
+            },
+            "airbyte_source_getlago": {
+                "current": "airbyte:index/getSourceGetlago:getSourceGetlago"
+            },
+            "airbyte_source_github": {
+                "current": "airbyte:index/getSourceGithub:getSourceGithub"
+            },
+            "airbyte_source_gitlab": {
+                "current": "airbyte:index/getSourceGitlab:getSourceGitlab"
+            },
+            "airbyte_source_glassfrog": {
+                "current": "airbyte:index/getSourceGlassfrog:getSourceGlassfrog"
+            },
+            "airbyte_source_gnews": {
+                "current": "airbyte:index/getSourceGnews:getSourceGnews"
+            },
+            "airbyte_source_google_ads": {
+                "current": "airbyte:index/getSourceGoogleAds:getSourceGoogleAds"
+            },
+            "airbyte_source_google_analytics_data_api": {
+                "current": "airbyte:index/getSourceGoogleAnalyticsDataApi:getSourceGoogleAnalyticsDataApi"
+            },
+            "airbyte_source_google_analytics_v4_service_account_only": {
+                "current": "airbyte:index/getSourceGoogleAnalyticsV4ServiceAccountOnly:getSourceGoogleAnalyticsV4ServiceAccountOnly"
+            },
+            "airbyte_source_google_directory": {
+                "current": "airbyte:index/getSourceGoogleDirectory:getSourceGoogleDirectory"
+            },
+            "airbyte_source_google_drive": {
+                "current": "airbyte:index/getSourceGoogleDrive:getSourceGoogleDrive"
+            },
+            "airbyte_source_google_pagespeed_insights": {
+                "current": "airbyte:index/getSourceGooglePagespeedInsights:getSourceGooglePagespeedInsights"
+            },
+            "airbyte_source_google_search_console": {
+                "current": "airbyte:index/getSourceGoogleSearchConsole:getSourceGoogleSearchConsole"
+            },
+            "airbyte_source_google_sheets": {
+                "current": "airbyte:index/getSourceGoogleSheets:getSourceGoogleSheets"
+            },
+            "airbyte_source_google_webfonts": {
+                "current": "airbyte:index/getSourceGoogleWebfonts:getSourceGoogleWebfonts"
+            },
+            "airbyte_source_greenhouse": {
+                "current": "airbyte:index/getSourceGreenhouse:getSourceGreenhouse"
+            },
+            "airbyte_source_gridly": {
+                "current": "airbyte:index/getSourceGridly:getSourceGridly"
+            },
+            "airbyte_source_harvest": {
+                "current": "airbyte:index/getSourceHarvest:getSourceHarvest"
+            },
+            "airbyte_source_hubplanner": {
+                "current": "airbyte:index/getSourceHubplanner:getSourceHubplanner"
+            },
+            "airbyte_source_hubspot": {
+                "current": "airbyte:index/getSourceHubspot:getSourceHubspot"
+            },
+            "airbyte_source_insightly": {
+                "current": "airbyte:index/getSourceInsightly:getSourceInsightly"
+            },
+            "airbyte_source_instagram": {
+                "current": "airbyte:index/getSourceInstagram:getSourceInstagram"
+            },
+            "airbyte_source_instatus": {
+                "current": "airbyte:index/getSourceInstatus:getSourceInstatus"
+            },
+            "airbyte_source_intercom": {
+                "current": "airbyte:index/getSourceIntercom:getSourceIntercom"
+            },
+            "airbyte_source_ip2whois": {
+                "current": "airbyte:index/getSourceIp2whois:getSourceIp2whois"
+            },
+            "airbyte_source_iterable": {
+                "current": "airbyte:index/getSourceIterable:getSourceIterable"
+            },
+            "airbyte_source_jira": {
+                "current": "airbyte:index/getSourceJira:getSourceJira"
+            },
+            "airbyte_source_k6_cloud": {
+                "current": "airbyte:index/getSourceK6Cloud:getSourceK6Cloud"
+            },
+            "airbyte_source_klarna": {
+                "current": "airbyte:index/getSourceKlarna:getSourceKlarna"
+            },
+            "airbyte_source_klaviyo": {
+                "current": "airbyte:index/getSourceKlaviyo:getSourceKlaviyo"
+            },
+            "airbyte_source_kyve": {
+                "current": "airbyte:index/getSourceKyve:getSourceKyve"
+            },
+            "airbyte_source_launchdarkly": {
+                "current": "airbyte:index/getSourceLaunchdarkly:getSourceLaunchdarkly"
+            },
+            "airbyte_source_lemlist": {
+                "current": "airbyte:index/getSourceLemlist:getSourceLemlist"
+            },
+            "airbyte_source_lever_hiring": {
+                "current": "airbyte:index/getSourceLeverHiring:getSourceLeverHiring"
+            },
+            "airbyte_source_linkedin_ads": {
+                "current": "airbyte:index/getSourceLinkedinAds:getSourceLinkedinAds"
+            },
+            "airbyte_source_linkedin_pages": {
+                "current": "airbyte:index/getSourceLinkedinPages:getSourceLinkedinPages"
+            },
+            "airbyte_source_linnworks": {
+                "current": "airbyte:index/getSourceLinnworks:getSourceLinnworks"
+            },
+            "airbyte_source_lokalise": {
+                "current": "airbyte:index/getSourceLokalise:getSourceLokalise"
+            },
+            "airbyte_source_mailchimp": {
+                "current": "airbyte:index/getSourceMailchimp:getSourceMailchimp"
+            },
+            "airbyte_source_mailgun": {
+                "current": "airbyte:index/getSourceMailgun:getSourceMailgun"
+            },
+            "airbyte_source_mailjet_sms": {
+                "current": "airbyte:index/getSourceMailjetSms:getSourceMailjetSms"
+            },
+            "airbyte_source_marketo": {
+                "current": "airbyte:index/getSourceMarketo:getSourceMarketo"
+            },
+            "airbyte_source_metabase": {
+                "current": "airbyte:index/getSourceMetabase:getSourceMetabase"
+            },
+            "airbyte_source_microsoft_onedrive": {
+                "current": "airbyte:index/getSourceMicrosoftOnedrive:getSourceMicrosoftOnedrive"
+            },
+            "airbyte_source_microsoft_sharepoint": {
+                "current": "airbyte:index/getSourceMicrosoftSharepoint:getSourceMicrosoftSharepoint"
+            },
+            "airbyte_source_microsoft_teams": {
+                "current": "airbyte:index/getSourceMicrosoftTeams:getSourceMicrosoftTeams"
+            },
+            "airbyte_source_mixpanel": {
+                "current": "airbyte:index/getSourceMixpanel:getSourceMixpanel"
+            },
+            "airbyte_source_monday": {
+                "current": "airbyte:index/getSourceMonday:getSourceMonday"
+            },
+            "airbyte_source_mongodb_internal_poc": {
+                "current": "airbyte:index/getSourceMongodbInternalPoc:getSourceMongodbInternalPoc"
+            },
+            "airbyte_source_mongodb_v2": {
+                "current": "airbyte:index/getSourceMongodbV2:getSourceMongodbV2"
+            },
+            "airbyte_source_mssql": {
+                "current": "airbyte:index/getSourceMssql:getSourceMssql"
+            },
+            "airbyte_source_my_hours": {
+                "current": "airbyte:index/getSourceMyHours:getSourceMyHours"
+            },
+            "airbyte_source_mysql": {
+                "current": "airbyte:index/getSourceMysql:getSourceMysql"
+            },
+            "airbyte_source_netsuite": {
+                "current": "airbyte:index/getSourceNetsuite:getSourceNetsuite"
+            },
+            "airbyte_source_notion": {
+                "current": "airbyte:index/getSourceNotion:getSourceNotion"
+            },
+            "airbyte_source_nytimes": {
+                "current": "airbyte:index/getSourceNytimes:getSourceNytimes"
+            },
+            "airbyte_source_okta": {
+                "current": "airbyte:index/getSourceOkta:getSourceOkta"
+            },
+            "airbyte_source_omnisend": {
+                "current": "airbyte:index/getSourceOmnisend:getSourceOmnisend"
+            },
+            "airbyte_source_onesignal": {
+                "current": "airbyte:index/getSourceOnesignal:getSourceOnesignal"
+            },
+            "airbyte_source_oracle": {
+                "current": "airbyte:index/getSourceOracle:getSourceOracle"
+            },
+            "airbyte_source_orb": {
+                "current": "airbyte:index/getSourceOrb:getSourceOrb"
+            },
+            "airbyte_source_orbit": {
+                "current": "airbyte:index/getSourceOrbit:getSourceOrbit"
+            },
+            "airbyte_source_outbrain_amplify": {
+                "current": "airbyte:index/getSourceOutbrainAmplify:getSourceOutbrainAmplify"
+            },
+            "airbyte_source_outreach": {
+                "current": "airbyte:index/getSourceOutreach:getSourceOutreach"
+            },
+            "airbyte_source_paypal_transaction": {
+                "current": "airbyte:index/getSourcePaypalTransaction:getSourcePaypalTransaction"
+            },
+            "airbyte_source_paystack": {
+                "current": "airbyte:index/getSourcePaystack:getSourcePaystack"
+            },
+            "airbyte_source_pendo": {
+                "current": "airbyte:index/getSourcePendo:getSourcePendo"
+            },
+            "airbyte_source_persistiq": {
+                "current": "airbyte:index/getSourcePersistiq:getSourcePersistiq"
+            },
+            "airbyte_source_pexels_api": {
+                "current": "airbyte:index/getSourcePexelsApi:getSourcePexelsApi"
+            },
+            "airbyte_source_pinterest": {
+                "current": "airbyte:index/getSourcePinterest:getSourcePinterest"
+            },
+            "airbyte_source_pipedrive": {
+                "current": "airbyte:index/getSourcePipedrive:getSourcePipedrive"
+            },
+            "airbyte_source_pocket": {
+                "current": "airbyte:index/getSourcePocket:getSourcePocket"
+            },
+            "airbyte_source_pokeapi": {
+                "current": "airbyte:index/getSourcePokeapi:getSourcePokeapi"
+            },
+            "airbyte_source_polygon_stock_api": {
+                "current": "airbyte:index/getSourcePolygonStockApi:getSourcePolygonStockApi"
+            },
+            "airbyte_source_postgres": {
+                "current": "airbyte:index/getSourcePostgres:getSourcePostgres"
+            },
+            "airbyte_source_posthog": {
+                "current": "airbyte:index/getSourcePosthog:getSourcePosthog"
+            },
+            "airbyte_source_postmarkapp": {
+                "current": "airbyte:index/getSourcePostmarkapp:getSourcePostmarkapp"
+            },
+            "airbyte_source_prestashop": {
+                "current": "airbyte:index/getSourcePrestashop:getSourcePrestashop"
+            },
+            "airbyte_source_punk_api": {
+                "current": "airbyte:index/getSourcePunkApi:getSourcePunkApi"
+            },
+            "airbyte_source_pypi": {
+                "current": "airbyte:index/getSourcePypi:getSourcePypi"
+            },
+            "airbyte_source_qualaroo": {
+                "current": "airbyte:index/getSourceQualaroo:getSourceQualaroo"
+            },
+            "airbyte_source_railz": {
+                "current": "airbyte:index/getSourceRailz:getSourceRailz"
+            },
+            "airbyte_source_recharge": {
+                "current": "airbyte:index/getSourceRecharge:getSourceRecharge"
+            },
+            "airbyte_source_recreation": {
+                "current": "airbyte:index/getSourceRecreation:getSourceRecreation"
+            },
+            "airbyte_source_recruitee": {
+                "current": "airbyte:index/getSourceRecruitee:getSourceRecruitee"
+            },
+            "airbyte_source_recurly": {
+                "current": "airbyte:index/getSourceRecurly:getSourceRecurly"
+            },
+            "airbyte_source_redshift": {
+                "current": "airbyte:index/getSourceRedshift:getSourceRedshift"
+            },
+            "airbyte_source_retently": {
+                "current": "airbyte:index/getSourceRetently:getSourceRetently"
+            },
+            "airbyte_source_rki_covid": {
+                "current": "airbyte:index/getSourceRkiCovid:getSourceRkiCovid"
+            },
+            "airbyte_source_rss": {
+                "current": "airbyte:index/getSourceRss:getSourceRss"
+            },
+            "airbyte_source_s3": {
+                "current": "airbyte:index/getSourceS3:getSourceS3"
+            },
+            "airbyte_source_salesforce": {
+                "current": "airbyte:index/getSourceSalesforce:getSourceSalesforce"
+            },
+            "airbyte_source_salesloft": {
+                "current": "airbyte:index/getSourceSalesloft:getSourceSalesloft"
+            },
+            "airbyte_source_sap_fieldglass": {
+                "current": "airbyte:index/getSourceSapFieldglass:getSourceSapFieldglass"
+            },
+            "airbyte_source_secoda": {
+                "current": "airbyte:index/getSourceSecoda:getSourceSecoda"
+            },
+            "airbyte_source_sendgrid": {
+                "current": "airbyte:index/getSourceSendgrid:getSourceSendgrid"
+            },
+            "airbyte_source_sendinblue": {
+                "current": "airbyte:index/getSourceSendinblue:getSourceSendinblue"
+            },
+            "airbyte_source_senseforce": {
+                "current": "airbyte:index/getSourceSenseforce:getSourceSenseforce"
+            },
+            "airbyte_source_sentry": {
+                "current": "airbyte:index/getSourceSentry:getSourceSentry"
+            },
+            "airbyte_source_sftp": {
+                "current": "airbyte:index/getSourceSftp:getSourceSftp"
+            },
+            "airbyte_source_sftp_bulk": {
+                "current": "airbyte:index/getSourceSftpBulk:getSourceSftpBulk"
+            },
+            "airbyte_source_shopify": {
+                "current": "airbyte:index/getSourceShopify:getSourceShopify"
+            },
+            "airbyte_source_shortio": {
+                "current": "airbyte:index/getSourceShortio:getSourceShortio"
+            },
+            "airbyte_source_slack": {
+                "current": "airbyte:index/getSourceSlack:getSourceSlack"
+            },
+            "airbyte_source_smaily": {
+                "current": "airbyte:index/getSourceSmaily:getSourceSmaily"
+            },
+            "airbyte_source_smartengage": {
+                "current": "airbyte:index/getSourceSmartengage:getSourceSmartengage"
+            },
+            "airbyte_source_smartsheets": {
+                "current": "airbyte:index/getSourceSmartsheets:getSourceSmartsheets"
+            },
+            "airbyte_source_snapchat_marketing": {
+                "current": "airbyte:index/getSourceSnapchatMarketing:getSourceSnapchatMarketing"
+            },
+            "airbyte_source_snowflake": {
+                "current": "airbyte:index/getSourceSnowflake:getSourceSnowflake"
+            },
+            "airbyte_source_sonar_cloud": {
+                "current": "airbyte:index/getSourceSonarCloud:getSourceSonarCloud"
+            },
+            "airbyte_source_spacex_api": {
+                "current": "airbyte:index/getSourceSpacexApi:getSourceSpacexApi"
+            },
+            "airbyte_source_square": {
+                "current": "airbyte:index/getSourceSquare:getSourceSquare"
+            },
+            "airbyte_source_strava": {
+                "current": "airbyte:index/getSourceStrava:getSourceStrava"
+            },
+            "airbyte_source_stripe": {
+                "current": "airbyte:index/getSourceStripe:getSourceStripe"
+            },
+            "airbyte_source_survey_sparrow": {
+                "current": "airbyte:index/getSourceSurveySparrow:getSourceSurveySparrow"
+            },
+            "airbyte_source_surveymonkey": {
+                "current": "airbyte:index/getSourceSurveymonkey:getSourceSurveymonkey"
+            },
+            "airbyte_source_tempo": {
+                "current": "airbyte:index/getSourceTempo:getSourceTempo"
+            },
+            "airbyte_source_the_guardian_api": {
+                "current": "airbyte:index/getSourceTheGuardianApi:getSourceTheGuardianApi"
+            },
+            "airbyte_source_tiktok_marketing": {
+                "current": "airbyte:index/getSourceTiktokMarketing:getSourceTiktokMarketing"
+            },
+            "airbyte_source_trello": {
+                "current": "airbyte:index/getSourceTrello:getSourceTrello"
+            },
+            "airbyte_source_trustpilot": {
+                "current": "airbyte:index/getSourceTrustpilot:getSourceTrustpilot"
+            },
+            "airbyte_source_tvmaze_schedule": {
+                "current": "airbyte:index/getSourceTvmazeSchedule:getSourceTvmazeSchedule"
+            },
+            "airbyte_source_twilio": {
+                "current": "airbyte:index/getSourceTwilio:getSourceTwilio"
+            },
+            "airbyte_source_twilio_taskrouter": {
+                "current": "airbyte:index/getSourceTwilioTaskrouter:getSourceTwilioTaskrouter"
+            },
+            "airbyte_source_twitter": {
+                "current": "airbyte:index/getSourceTwitter:getSourceTwitter"
+            },
+            "airbyte_source_typeform": {
+                "current": "airbyte:index/getSourceTypeform:getSourceTypeform"
+            },
+            "airbyte_source_us_census": {
+                "current": "airbyte:index/getSourceUsCensus:getSourceUsCensus"
+            },
+            "airbyte_source_vantage": {
+                "current": "airbyte:index/getSourceVantage:getSourceVantage"
+            },
+            "airbyte_source_webflow": {
+                "current": "airbyte:index/getSourceWebflow:getSourceWebflow"
+            },
+            "airbyte_source_whisky_hunter": {
+                "current": "airbyte:index/getSourceWhiskyHunter:getSourceWhiskyHunter"
+            },
+            "airbyte_source_wikipedia_pageviews": {
+                "current": "airbyte:index/getSourceWikipediaPageviews:getSourceWikipediaPageviews"
+            },
+            "airbyte_source_woocommerce": {
+                "current": "airbyte:index/getSourceWoocommerce:getSourceWoocommerce"
+            },
+            "airbyte_source_xkcd": {
+                "current": "airbyte:index/getSourceXkcd:getSourceXkcd"
+            },
+            "airbyte_source_yandex_metrica": {
+                "current": "airbyte:index/getSourceYandexMetrica:getSourceYandexMetrica"
+            },
+            "airbyte_source_yotpo": {
+                "current": "airbyte:index/getSourceYotpo:getSourceYotpo"
+            },
+            "airbyte_source_youtube_analytics": {
+                "current": "airbyte:index/getSourceYoutubeAnalytics:getSourceYoutubeAnalytics"
+            },
+            "airbyte_source_zendesk_chat": {
+                "current": "airbyte:index/getSourceZendeskChat:getSourceZendeskChat"
+            },
+            "airbyte_source_zendesk_sell": {
+                "current": "airbyte:index/getSourceZendeskSell:getSourceZendeskSell"
+            },
+            "airbyte_source_zendesk_sunshine": {
+                "current": "airbyte:index/getSourceZendeskSunshine:getSourceZendeskSunshine"
+            },
+            "airbyte_source_zendesk_support": {
+                "current": "airbyte:index/getSourceZendeskSupport:getSourceZendeskSupport"
+            },
+            "airbyte_source_zendesk_talk": {
+                "current": "airbyte:index/getSourceZendeskTalk:getSourceZendeskTalk"
+            },
+            "airbyte_source_zenloop": {
+                "current": "airbyte:index/getSourceZenloop:getSourceZenloop"
+            },
+            "airbyte_source_zoho_crm": {
+                "current": "airbyte:index/getSourceZohoCrm:getSourceZohoCrm"
+            },
+            "airbyte_source_zoom": {
+                "current": "airbyte:index/getSourceZoom:getSourceZoom"
+            },
+            "airbyte_workspace": {
+                "current": "airbyte:index/getWorkspace:getWorkspace"
+            }
+        }
+    },
+    "auto-settings": {}
+}

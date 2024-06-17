@@ -1,3 +1,3 @@
-module github.com/pulumi/pulumi-xyz/sdk
+module github.com/howly-global/pulumi-airbyte/sdk
 
 go 1.17
