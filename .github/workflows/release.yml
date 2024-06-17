@@ -31,7 +31,7 @@ jobs:
       uses: goreleaser/goreleaser-action@v2
       with:
         args: -p 3 release --rm-dist
-        version: latest
+        version: v1.26.2
     strategy:
       fail-fast: true
       matrix:
