@@ -362,7 +362,7 @@ func Provider() tfbridge.ProviderInfo {
 			"airbyte_source_aircall":                                  {ComputeID: computeID},
 			"airbyte_source_rki_covid":                                {ComputeID: computeID},
 			"airbyte_source_railz":                                    {ComputeID: computeID},
-			"airbyte_destination_bigquery":                            {ComputeID: computeID},
+			"airbyte_destination_bigquery":                            {ComputeID: tfbridge.DelegateIDField("destination_id", "pulumi-airbyte", "https://github.com/howly-global/terraform-provider-airbyte")},
 			"airbyte_source_datascope":                                {ComputeID: computeID},
 			"airbyte_source_google_directory":                         {ComputeID: computeID},
 			"airbyte_source_intercom":                                 {ComputeID: computeID},
