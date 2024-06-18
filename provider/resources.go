@@ -66,6 +66,20 @@ func computeBigqueryID(ctx context.Context, state resource.PropertyMap) (resourc
 	return resource.ID(id), nil
 }
 
+func computeGoogleAdsID(ctx context.Context, state resource.PropertyMap) (resource.ID, error) {
+	projectId := state["project_id"].String()
+	datasetId := state["dataset_id"].String()
+	name := state["name"].String()
+
+	name = strings.ReplaceAll(name, " ", "-")
+	name = strings.ToLower(name)
+
+	id := fmt.Sprintf("%s-%s-%s", projectId, datasetId, name)
+	id = strings.ToLower(id)
+
+	return resource.ID(id), nil
+}
+
 // Provider returns additional overlaid schema and metadata associated with the provider.
 func Provider() tfbridge.ProviderInfo {
 	// Create a Pulumi provider mapping
@@ -222,7 +236,7 @@ func Provider() tfbridge.ProviderInfo {
 			"airbyte_source_coin_api":                                 {ComputeID: computeID},
 			"airbyte_source_google_drive":                             {ComputeID: computeID},
 			"airbyte_destination_milvus":                              {ComputeID: computeID},
-			"airbyte_source_google_ads":                               {ComputeID: computeID},
+			"airbyte_source_google_ads":                               {ComputeID: tfbridge.DelegateIDField("sourceId", "pulumi-airbyte", "https://github.com/howly-global/terraform-provider-airbyte")},
 			"airbyte_source_freshsales":                               {ComputeID: computeID},
 			"airbyte_source_gitlab":                                   {ComputeID: computeID},
 			"airbyte_source_launchdarkly":                             {ComputeID: computeID},
@@ -377,7 +391,7 @@ func Provider() tfbridge.ProviderInfo {
 			"airbyte_source_aircall":                                  {ComputeID: computeID},
 			"airbyte_source_rki_covid":                                {ComputeID: computeID},
 			"airbyte_source_railz":                                    {ComputeID: computeID},
-			"airbyte_destination_bigquery":                            {ComputeID: computeBigqueryID},
+			"airbyte_destination_bigquery":                            {ComputeID: tfbridge.DelegateIDField("destinationId", "pulumi-airbyte", "https://github.com/howly-global/terraform-provider-airbyte")},
 			"airbyte_source_datascope":                                {ComputeID: computeID},
 			"airbyte_source_google_directory":                         {ComputeID: computeID},
 			"airbyte_source_intercom":                                 {ComputeID: computeID},
