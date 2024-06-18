@@ -19,6 +19,7 @@ import (
 	"fmt"
 	"github.com/pulumi/pulumi/sdk/v3/go/common/resource"
 	"path"
+	"strings"
 
 	// Allow embedding bridge-metadata.json in the provider.
 	_ "embed"
@@ -49,6 +50,20 @@ func computeID(ctx context.Context, state resource.PropertyMap) (resource.ID, er
 		return resource.ID(id.StringValue()), nil
 	}
 	return "", fmt.Errorf("missing id property")
+}
+
+func computeBigqueryID(ctx context.Context, state resource.PropertyMap) (resource.ID, error) {
+	projectId := state["project_id"].String()
+	datasetId := state["dataset_id"].String()
+	name := state["name"].String()
+
+	name = strings.ReplaceAll(name, " ", "-")
+	name = strings.ToLower(name)
+
+	id := fmt.Sprintf("%s-%s-%s", projectId, datasetId, name)
+	id = strings.ToLower(id)
+
+	return resource.ID(id), nil
 }
 
 // Provider returns additional overlaid schema and metadata associated with the provider.
@@ -362,7 +377,7 @@ func Provider() tfbridge.ProviderInfo {
 			"airbyte_source_aircall":                                  {ComputeID: computeID},
 			"airbyte_source_rki_covid":                                {ComputeID: computeID},
 			"airbyte_source_railz":                                    {ComputeID: computeID},
-			"airbyte_destination_bigquery":                            {ComputeID: tfbridge.DelegateIDField("destination_id", "pulumi-airbyte", "https://github.com/howly-global/terraform-provider-airbyte")},
+			"airbyte_destination_bigquery":                            {ComputeID: computeBigqueryID},
 			"airbyte_source_datascope":                                {ComputeID: computeID},
 			"airbyte_source_google_directory":                         {ComputeID: computeID},
 			"airbyte_source_intercom":                                 {ComputeID: computeID},
